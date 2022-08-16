@@ -1,0 +1,282 @@
+body {
+    margin: auto
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 70px;
+    /*border:5px solid blue;*/
+    background-color: #3b2632;
+}
+
+#brand {
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#social {
+    float: right;
+    margin-top: 7px;
+    margin-right: 1%;
+}
+
+.socialImg {
+    height: 50px;
+}
+
+/* Search Block Css */
+#container {
+    height: 700px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.filter {
+    height: 500px;
+    width: 20%;
+    border: 2px solid green;
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.content {
+    height: 700px;
+    width: 75%;
+    margin-left: 4%;
+    /* border: 2px solid rgb(38, 0, 128); */
+    float: left;
+}
+
+.content input {
+    height: 27px;
+    width: 100%
+}
+
+.box1 {
+    height: 313px;
+    width: 93%;
+    margin-left: 4%;
+    /* border: 2px solid rgb(38, 0, 128); */
+    float: left;
+}
+
+.box1 img {
+    height: 230px;
+    width: 47%;
+    float: left;
+    border-radius: 7%;
+}
+
+.box1 div {
+    text-align: center;
+    color: blue;
+    font-size: 123%;
+    margin-top: 0%;
+}
+
+#dinner {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#dinner:hover {
+    background-color: rgb(119, 119, 235)
+}
+
+#dinner:active {
+    background-color: blue;
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+#nightlife {
+    background-color: green;
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#nightlife:hover {
+    background-color: #78ca7b
+}
+
+#nightlife:active {
+    background-color: green;
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+#italian {
+    background-color: red;
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#italian:hover {
+    background-color: rgb(237, 106, 106)
+}
+
+#italian:active {
+    background-color: red;
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+#mexican {
+    background-color: rgb(188, 37, 188);
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#mexican:hover {
+    background-color: rgb(210, 126, 210);
+}
+
+#mexican:active {
+    background-color: rgb(188, 37, 188);
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+.box2 {
+    height: 500px;
+    width: 93%;
+    margin-left: 4%;
+    /* border: 2px solid rgb(38, 0, 128); */
+}
+
+.box2 img {
+    height: 230px;
+    width: 47%;
+    float: left;
+    border-radius: 7%;
+}
+
+.box2 div {
+    text-align: center;
+    color: blue;
+    font-size: 123%;
+    margin-top: 0%;
+}
+
+#dinner {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#dinner:hover {
+    background-color: rgb(119, 119, 235)
+}
+
+#dinner:active {
+    background-color: blue;
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+#nightlife {
+    background-color: green;
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#nightlife:hover {
+    background-color: #78ca7b
+}
+
+#nightlife:active {
+    background-color: green;
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+#italian {
+    background-color: red;
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#italian:hover {
+    background-color: rgb(237, 106, 106)
+}
+
+#italian:active {
+    background-color: red;
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+#mexican {
+    background-color: rgb(188, 37, 188);
+    color: #fff;
+    border: none;
+    height: 27px;
+    width: 13%;
+    border-radius: 7px;
+}
+
+#mexican:hover {
+    background-color: rgb(210, 126, 210);
+}
+
+#mexican:active {
+    background-color: rgb(188, 37, 188);
+    box-shadow: 0 5px rgb(123, 83, 83);
+    transform: translateY(4px);
+}
+
+/* Footer Block Css */
+footer {
+    height: 140px;
+    background-color: #3b2632;
+    color: #fff;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.fotDiv {
+    width: 31%;
+    float: left;
+    border-right: 2px solid white;
+}
+
+.noBorder {
+    border: none
+}
